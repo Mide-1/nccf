@@ -1,28 +1,46 @@
-#nccf_logo  {
-width: 150px;
-height: 41.967px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    gap: 24px;
-
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
 }
 
-#navbar {
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.nav-links li {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+#nccf_logo {
+  width: 150px;
+  height: 41.967px;
 }
 
 button {
-    background: #DD3333;
-    color: white;
-    border: none;
-    /* gap: 8px; */
-    padding: 12px 24px;
-    justify-content: center;
-    text-align: center;
+  background: #dd3333;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
 }
-
