@@ -44,3 +44,20 @@ button {
   font-weight: 600;
   text-transform: capitalize;
 }
+
+.hero-section {
+  justify-content: space-between;
+  display: flex;
+}
+
+.first-img {
+  justify-content: space-between;
+  width: 675.047px;
+  padding: 15rem 85px;
+  
+}
+
+.second-img {
+  width: 855.861px;
+  height: 808px;
+}
