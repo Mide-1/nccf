@@ -5,9 +5,22 @@ body {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+  background: white;
+  height: 5rem;
+}
+
+.navbar-container {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 5rem;
+  width: 90%;
+  padding: 1rem 0;
 }
 
 .nav-content {
@@ -46,18 +59,32 @@ button {
 }
 
 .hero-section {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 7rem);
+  margin: 0;
+  padding: 0;
+  padding-top: 7rem;
 }
 
 .first-img {
-  justify-content: space-between;
-  width: 675.047px;
-  padding: 15rem 85px;
-  
+  width: 45%;
+  padding-left: 5%;
 }
 
 .second-img {
-  width: 855.861px;
-  height: 808px;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.second-img img {
+  height: 100%;
+  width: 100%;
 }
