@@ -73,14 +73,9 @@ button {
 }
 
 .first-img {
-<<<<<<< HEAD:style.css
   justify-content: space-between;
   width: 675.047px;
   padding: 15rem 85px;
-=======
-  width: 45%;
-  padding-left: 5%;
->>>>>>> a9bb61553e9b928e9b72404cc4494d475ab646f4:styles/style.css
 }
 
 .second-img {
